@@ -1,0 +1,113 @@
+
+header{
+  border: solid red;
+  background-image: url("https://th.bing.com/th/id/R.d227c98a3fad7f318b96729b1a52f190?rik=XzLlMaFgb1UoZQ&pid=ImgRaw&r=0");
+  
+  
+}
+
+.sidebar-wrap {
+    width: 60px;
+    height: 100vh;
+    background-color: #fff;
+    color: #000; 
+    padding: 10px;
+    transition: 0.8s;
+  }
+  .sidebar-wrap:hover {
+    width: 280px;
+  }
+  .sidebar-wrap:hover .logo-wrap span {
+    display: flex;
+  }
+  .sidebar-wrap:hover .nav li .nav-link span {
+    display: flex;
+  }
+  .sidebar-wrap:hover .dropdown-wrap strong {
+    display: flex;
+  }
+  .sidebar-wrap:hover .dropdown-wrap::after {
+    display: inline-block;
+  }
+  .sidebar-wrap:hover .dropdown-wrap {
+    justify-content: flex-start;
+  }
+  .sidebar-wrap .logo-wrap {
+    color: #171313;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sidebar-wrap .logo-wrap span {
+    font-size: 18px;
+  }
+  .sidebar-wrap .logo-wrap .icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+  }
+  .sidebar-wrap .nav {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+  }
+  .sidebar-wrap .nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-color: #0a0a0a;
+  }
+  .sidebar-wrap .nav::-webkit-scrollbar {
+    width: 5px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+  }
+  .sidebar-wrap .nav::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+  }
+  .sidebar-wrap .nav li {
+    margin-top: 5px;
+  }
+  .sidebar-wrap .nav li .nav-link {
+    color: #000000;
+    padding: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .sidebar-wrap .nav li .nav-link .icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+  }
+  .sidebar-wrap .nav li .nav-link span {
+    font-size: 16px;
+  }
+  .sidebar-wrap .nav li .nav-link.active {
+    background-color: #ffffff;
+  }
+  .sidebar-wrap .nav li .nav-link:hover {
+    background-color: #ffffff;
+  }
+  .sidebar-wrap .dropdown-wrap {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 15px;
+    font-size: 16px;
+  }
+  .sidebar-wrap .dropdown-wrap .icon-wrap {
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,33 @@
+/* .container{
+    margin-top: 5%;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.container .row .image img{
+    width: 16rem;
+    height: auto;
+    float: left;
+    transition: 0.8s;
+    box-shadow: 0px 10px 23px -7px #000000;
+    border-radius: 10px 0px 10px 0px ;
+
+}
+.container .row .details{
+    width: 40rem;
+    background: rgb(216, 217, 216);
+    padding: 20px;
+
+}
+.container .row .details h3.p{
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    
+} */
+
+body{background:#eee}
+.ratings i{font-size: 16px;color: red}
+.strike-text{color: red;text-decoration: line-through}
+.product-image{width: 100%; max-height: 210px;}
+.dot{height: 7px;width: 7px;margin-left: 6px;margin-right: 6px;margin-top: 3px;background-color: blue;border-radius: 50%;display: inline-block}
+.spec-1{color: #938787;font-size: 15px}h5{font-weight: 400}.para{font-size: 16px}

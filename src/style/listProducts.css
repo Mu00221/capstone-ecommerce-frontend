@@ -1,0 +1,207 @@
+
+ .background{
+  background-color: aqua;
+  height: 680px;
+ }
+ .card-info{
+  display: inline-flex;
+ margin-right: 20px;
+  margin-left: 60px;
+  margin-top: 70px;
+ }
+ 
+ 
+ .card-info .card {
+  display: inline-flex;
+  border: none;
+  width: 12rem;
+  position: relative;
+  left: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  height: 420px;
+  width: 18rem;
+
+   }
+
+.card-info .card:hover{
+  box-shadow: 0 0 5px 3px #33313196;
+
+}
+
+
+
+
+.card-img-top{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+ .card-body{
+    text-align: left;
+    display: contents;
+    
+} 
+
+
+  .card-body .card-title{
+    padding-top: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 480;
+    margin-top: 3px;
+    color: #333;
+    margin-bottom: 0px;
+
+  }
+
+  .card-body .price{
+    display: inline-block;
+  }
+
+  .card-body .card-price{
+    font-size: 16px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: #f56a6a;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  }
+
+ 
+/* 
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+  *
+  {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  
+  body
+  {
+      font-family: 'Roboto', sans-serif;
+  }
+  a
+  {
+      text-decoration: none;
+  }
+  .product-card {
+      width: 270px;
+      position: relative;
+      box-shadow: 0 2px 7px #dfdfdf;
+      margin-top: 60px;
+      margin-left: 90px;
+      background: #fafafa;
+      float: left;
+      
+  }
+  
+  .badge {
+      position: absolute;
+      left: 0;
+      top: 20px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 700;
+      background: red;
+      color: #fff;
+      padding: 3px 10px;
+  }
+  
+  .product-tumb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      padding: 0px;
+      background: #f0f0f0;
+      padding-top: 10px;
+  }
+  
+  .product-tumb img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+  
+  .product-details {
+      padding: 5px;
+      
+  }
+  
+  .product-catagory {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ccc;
+      margin-bottom: 10px;
+  }
+  
+  .product-details h4 a {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      color: #363636;
+      text-decoration: none;
+      transition: 0.3s;
+  }
+  
+  .product-details h4 a:hover {
+      color: #0D7589;
+  }
+  
+  .product-details p {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 5px;
+      color: #999;
+  }
+  
+  .product-bottom-details {
+      overflow: hidden;
+      border-top: 1px solid #eee;
+      padding-top: 0px;
+  }
+  
+  .product-bottom-details div {
+      float: left;
+      width: 50%;
+  }
+  
+  .product-price {
+      font-size: 18px;
+      color: #0D7589;
+      font-weight: 600;
+  }
+  
+  .product-price small {
+      font-size: 80%;
+      font-weight: 400;
+      text-decoration: line-through;
+      display: inline-block;
+      margin-right: 5px;
+  }
+  
+  .product-links {
+      text-align: right;
+  }
+  
+  .product-links a {
+      display: inline-block;
+      margin-left: 5px;
+      color: #e1e1e1;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+  
+  .product-links a:hover {
+      color: #0D7589;
+  } */

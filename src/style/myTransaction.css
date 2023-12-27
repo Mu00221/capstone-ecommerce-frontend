@@ -1,0 +1,143 @@
+
+
+.container4 {
+    
+    float: left;
+    position: relative;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 40px;
+    padding: 5px 40px 5px 10px;
+    display: grid;
+    grid-template-columns: 300px 400px;
+    margin-right: 30px;
+    width: 700px;
+    height: 400px;
+    
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+.container4{
+    max-width: none;
+    margin-bottom: 40px;
+}
+
+.container4 .left-side {
+    max-width: 200px;
+    background-size: cover;
+    background-position: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.container4 .left-side #transaction-pic{
+    position: relative;
+    top: 20px;
+    width: 300px;
+}
+
+.right-side {
+    margin: 20px 32px 32px 32px;
+}
+
+#perfume {
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+#header {
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+    margin: 25px auto;
+}
+
+#description {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.8;
+    margin-bottom: 5px;
+    margin-top: 20px
+}
+
+
+#number-discount, #number-full {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#number-discount {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right: 10px;
+}
+
+#number-full {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.2s;
+    margin-top: 20px
+}
+
+.cart-btn:hover {
+    background-color: hsl(156, 42%, 18%);
+    cursor: pointer;
+}
+
+.cart-btn > svg {
+    margin-left: -8px;
+}
+
+.cart-btn p{
+    position: relative;
+    top: 9px;
+}
+@media only screen and (max-width: 767px) {
+    .container4 {
+      grid-template-columns: 1fr;
+      width: 345px;
+      height: 610px;
+    }
+
+    .left-side {
+        background-image: url(https://i.ibb.co/Dpz1GXR/image-product-mobile.jpg);
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #perfume {
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    #description {
+        margin-top: -8px;
+        margin-bottom: -1px;
+    }
+
+    .price {
+        margin-bottom: -8px;
+    }
+
+    .cart-btn {
+        height: 48px;
+    }
+  }

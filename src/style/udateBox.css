@@ -1,0 +1,40 @@
+
+.main{
+    height: 680px;
+    background-color: rgb(180, 208, 205);
+    
+}
+.main .container{
+
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    top: 240px;
+    width: 400px;
+   
+
+    
+}
+
+.main p{
+    display: block;
+    margin-left: 70px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main input{
+   text-align: center;
+   position: relative;
+   left: 30px;
+   bottom: 10px;
+   border-radius: 20px;
+   width: 18rem;
+   border-color: lightblue;
+}
+
+.main input:hover{
+    
+    box-shadow: 0 0 8px 4px #00000096;
+
+}

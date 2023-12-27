@@ -1,0 +1,78 @@
+.parallax2 .pallarex1{
+
+height:1000px;
+background-color:#E2E4E6;
+font-size:36px;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("https://th.bing.com/th?id=OIP.Zo-fdzvM-8-KFjQEUj8v1AHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.parallax1 .pallarex3{
+
+    height:1000px;
+    background-color:#E2E4E6;
+    font-size:36px
+    ;
+    }
+    .parallax1 {
+        /* The image used */
+        background-image: url();
+    
+        /* Set a specific height */
+        min-height: 500px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+    /* .parallax2 .card{
+        border: solid 2px red;
+        width: 200px;
+      margin: auto;
+      position:relative;
+      margin-top: 20px;
+    
+     
+     
+
+    }
+.pallarex1 .card{
+    width: 12rem;
+}
+.pallarex1 .card .card-body{
+    text-align: center;
+} 
+.pallarex1 .card .card-body h5{
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(0, 93, 123);
+} 
+.pallarex1 .card .card-body h5:hover{
+    border-bottom: solid 1px red;
+    cursor: pointer;
+  }  */
+
+
+  /* .demo{padding:4px 0} */
+  /* .container{
+    border: solid red;
+    display: flex;
+    width: 200px;
+  } */
+
+  

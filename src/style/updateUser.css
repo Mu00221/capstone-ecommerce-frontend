@@ -1,0 +1,52 @@
+.cover{
+    margin-top: none;
+    height: 680px;
+    background-image: url("https://la1connect.com/wp-content/uploads/2015/01/background_form.jpg");
+}
+
+
+ 
+  
+      
+  .white-panel{
+      border-radius: 15px;
+      height:490px;
+      position:absolute;
+      top:190px;
+      width:50%;
+      margin-left: 22%;
+      transition:.3s ease-in-out;
+     
+      box-shadow: 0 0 15px 9px #00000096;
+  }
+
+  #button{
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 5px;
+  }
+  .white-panel .update  h1{
+       width: 100%;
+       text-align: center;
+       font-weight: bold;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .white-panel .update #grid{
+        display: grid;
+        top: 35px;
+        row-gap: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    .white-panel .update input{
+        border: white;
+        border-bottom: 2px #0D7589 solid;
+    }
+
+    .white-panel .update button{
+        position: relative;
+        top: 30px;
+    }
+ 

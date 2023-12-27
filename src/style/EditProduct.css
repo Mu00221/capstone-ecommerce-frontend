@@ -1,0 +1,49 @@
+
+.top{
+    height: 700px;
+    background-image: url("https://static.wixstatic.com/media/be7d8b_075706e6c7bc4e9a8361107b43a2d0cd~mv2.png/v1/fill/w_980,h_478,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/be7d8b_075706e6c7bc4e9a8361107b43a2d0cd~mv2.png");
+}
+
+
+.top .white-panel{
+    width: 900px;
+    position: relative;
+    top: 60px;
+    height: 560px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #00000096;
+    background-image: url("https://img.freepik.com/free-vector/organic-white-backgroun_1199-324.jpg?w=1060&t=st=1699638466~exp=1699639066~hmac=2b25e982ddfa7ea2d35eff29de139a0ffe57505208eacb1aa01b56f3a92a08cf");
+
+}
+
+.white-panel .title{
+    display: inline-block;
+    position: relative;
+    left: 18rem;
+    top: 25px;
+    color: #0D7589;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.top .white-panel #cover-input{
+    display: grid;
+    top: 45px;
+    row-gap: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top .white-panel .form-control{
+    border: white;
+    border-bottom: 2px #0D7589 solid;
+}
+
+.top .white-panel #enter{
+    margin-top: 80px;
+    width: 50rem;
+    margin-left: 45px;
+}
+
+
