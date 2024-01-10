@@ -110,8 +110,8 @@ function App() {
 
 
        <Route path='/profile' element = {<Profile user = {user} setUser = {setUser}/> } />
-    </Routes>
-    </PageWrapper>
+       </Routes>
+       </PageWrapper>
     );
 }
 

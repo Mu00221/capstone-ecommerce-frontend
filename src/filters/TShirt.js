@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import ProductContainer from "../Importants/ProductContainer";
+import ProductContainer from "../reuseables/ProductContainer";
 import { Link } from "react-router-dom";
 
 function TShirt() {
